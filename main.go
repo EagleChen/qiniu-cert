@@ -18,9 +18,6 @@ const certPrefix = "certificates"
 
 // note: according to the chosen dns, corresponding envs need to be set
 // run `lego dnshelp` for help on usage
-// TargetDomain and QiniuDomain usually are the same
-// but for wildcard dns record, TargetDomain might be "*.mydomain.com"
-// QiniuDomain might be ".mydomain.com"
 type confs struct {
 	// lets encrypt configs
 	Email       string
