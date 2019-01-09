@@ -137,5 +137,5 @@ func (c *qiniuClient) domainToHTTPS(qiniuDomainName, certID string) error {
 
 func (c *qiniuClient) domainUpdateCert(qiniuDomainName, certID string) error {
 	req := domainCertReq{CertID: certID}
-	return c.request(http.MethodGet, "/domain/"+qiniuDomainName+"/httpsconf", req, nil)
+	return c.request(http.MethodPut, "/domain/"+qiniuDomainName+"/httpsconf", req, nil)
 }
