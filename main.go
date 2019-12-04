@@ -105,6 +105,7 @@ func generateCerts(email, path, dns string, renew bool, domains []string) error 
 		"--dns=" + dns,
 		"--path=" + path,
 		"--accept-tos",
+		"--dns.disable-cp",
 	}
 	for _, d := range domains {
 		args = append(args, "--domains="+d)
