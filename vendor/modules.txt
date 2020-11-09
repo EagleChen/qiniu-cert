@@ -1,17 +1,25 @@
 # github.com/BurntSushi/toml v0.3.1
+## explicit
 github.com/BurntSushi/toml
 # github.com/fatih/camelcase v1.0.0
+## explicit
 github.com/fatih/camelcase
 # github.com/fatih/structs v1.1.0
+## explicit
 github.com/fatih/structs
 # github.com/koding/multiconfig v0.0.0-20171124222453-69c27309b2d7
+## explicit
 github.com/koding/multiconfig
 # github.com/qiniu/api.v7 v7.2.4+incompatible
+## explicit
 github.com/qiniu/api.v7/auth/qbox
 github.com/qiniu/api.v7/conf
 # github.com/qiniu/x v7.0.8+incompatible
+## explicit
 github.com/qiniu/x/bytes.v7/seekable
 # gopkg.in/yaml.v2 v2.2.1
+## explicit
 gopkg.in/yaml.v2
 # qiniupkg.com/x v7.0.8+incompatible
+## explicit
 qiniupkg.com/x/bytes.v7
